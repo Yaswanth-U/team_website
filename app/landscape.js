@@ -5,39 +5,46 @@ export default function HomeLandscape() {
   return (
     <div className="w-screen h-screen overflow-y-scroll snap-mandatory snap-y hidden md:inline-block">
 
+      {/* Auto Z Section */}
       <section id="home" className="h-screen flex px-16 snap-center">
+        {/* Left Side */}
         <div className="h-screen flex flex-col flex-grow">
           <div className="h-1/6" />
           <div className="grid grid-rows-3 items-end flex-grow">
             <h1 className="font-black text-7xl row-start-2">Auto Z</h1>
             <Link
-              className="pb-4 row-start-3 text-emerald-600 text-xl font-bold flex gap-3"
+              className="pb-4 row-start-3 text-emerald-600 text-xl font-bold flex gap-3 hover:underline"
               href="/recruitments"
             >
-              Recruitments <Image src="/icons/arrow.svg" width={32} height={16} alt="arrow icon" />
+              Recruitments{" "}
+              <Image src="/icons/arrow.svg" width={32} height={16} alt="arrow icon" />
             </Link>
           </div>
           <div className="h-1/6" />
         </div>
-        <div className="h-screen w-3/5">
+
+        {/* Right Side */}
+        <div className="h-screen w-3/5 flex flex-col items-center">
           <div className="h-1/6" />
-          <div className="grid grid-cols-2 gap-4">
-            <span className="font-medium text-slate-600 text-justify px-8">
-              <h2 className="font-bold text-xl pb-6 text-emerald-600">Who are We?</h2>
-              An autonomous ground vehicle developed by our OG group. the spark that started our journey.
-              Originally a Maruti Ecco now converted to a fully autonomous electric vehicle.
-              Originally a Maruti Ecco now converted to a fully autonomous electric vehicle.
-            </span>
-            <Image
-              src="/pictures/cbe9457a-8cc9-488f-9a27-3dfe6e32c98a.jpg"
-              height={500}
-              width={400}
-              alt="Autonomous vehicle"
-            />
+          <Image
+            src="/pictures/cbe9457a-8cc9-488f-9a27-3dfe6e32c98a.jpg"
+            height={600}
+            width={600}
+            alt="Autonomous vehicle"
+            className="rounded-xl shadow-lg object-cover"
+          />
+          <div className="px-8 mt-6">
+            <h2 className="font-bold text-2xl pb-4 text-emerald-600">Who are We?</h2>
+            <p className="font-medium text-slate-600 text-justify leading-relaxed">
+              An autonomous ground vehicle developed by our OG group — the spark that
+              started our journey. Originally a Maruti Ecco, it has now been converted
+              into a fully autonomous electric vehicle.
+            </p>
           </div>
         </div>
       </section>
 
+      {/* Team Section */}
       <section id="team" className="h-screen flex px-16 snap-center">
         <div className="h-screen flex flex-col flex-grow">
           <div className="h-1/6" />
@@ -61,17 +68,12 @@ export default function HomeLandscape() {
             alt="Team"
           />
           <span className="font-medium text-slate-600 text-justify">
-            There are many variations of passages of Lorem Ipsum available, but the
-            majority have suffered alteration in some form, by injected humour, or
-            randomised words which don't look even slightly believable. If you are
-            going to use a passage of Lorem Ipsum, you need to be sure there isn't
-            anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-            generators on the Internet tend to repeat predefined chunks as
-            necessary, making this the first true generator on the Internet.
+            We are a team of passionate innovators from VIT, Vellore, committed to developing advanced autonomous robots. With expertise spanning engineering, computer science, and design, we thrive on interdisciplinary collaboration, believing that the fusion of diverse skills is the key to groundbreaking innovation by solutions.
           </span>
         </div>
       </section>
 
+      {/* Sponsors Section */}
       <section id="sponsors" className="h-screen flex px-16 snap-center">
         <div className="h-screen flex flex-col flex-grow">
           <div className="h-1/6" />
@@ -101,6 +103,7 @@ export default function HomeLandscape() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section
         id="contact"
         className="h-screen snap-center flex flex-col px-6 py-10 justify-center items-center text-center space-y-4"
@@ -123,12 +126,7 @@ export default function HomeLandscape() {
             aria-label="Instagram"
             className="text-gray-700 hover:text-emerald-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
               <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.5 1.75a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zm-4.25 2.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5z" />
             </svg>
           </a>
@@ -141,14 +139,7 @@ export default function HomeLandscape() {
             aria-label="LinkedIn"
             className="text-gray-700 hover:text-emerald-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M4.98 3.5C3.34 3.5 2 4.84 2 6.48a2.48 2.48 0 004.96 0c0-1.64-1.34-2.98-2.98-2.98zM2 8.82h5.96v12.18H2V8.82zm7.6 0h5.7v1.65h.1c.8-1.5 2.75-3.08 5.65-3.08 6 0 7.1 3.94 7.1 9.06V20H18v-8.7c0-2.1 0-4.8-3-4.8-3 0-3.46 2.34-3.46 4.66V20H9.6V8.82z" />
-            </svg>
+            
           </a>
         </div>
       </section>

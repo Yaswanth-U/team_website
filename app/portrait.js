@@ -16,8 +16,8 @@ export default function HomePortrait() {
           </span>
           <Image
             src="/pictures/cbe9457a-8cc9-488f-9a27-3dfe6e32c98a.jpg"
-            height={300}
-            width={250}
+            height={500}
+            width={450}
             alt="Autonomous vehicle"
             className="rounded-md"
           />
@@ -42,7 +42,7 @@ export default function HomePortrait() {
           className="rounded-md"
         />
         <p className="font-medium text-slate-600 max-w-md">
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+          We are a team of passionate innovators from VIT, Vellore, committed to developing advanced autonomous robots. With expertise spanning engineering, computer science, and design, we thrive on interdisciplinary collaboration, believing that the fusion of diverse skills is the key to groundbreaking innovation by solutions.
         </p>
         <Link
           href="/members"
