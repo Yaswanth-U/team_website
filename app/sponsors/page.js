@@ -61,6 +61,14 @@ export default function Sponsors() {
                 <h1 className="text-6xl font-black text-emerald-600">Sponsors</h1>
                 <p className="text-gray-600 mt-4 max-w-3xl">
                     We appreciate the support of our sponsors in driving innovation. Their generous contributions enable us to continue pushing the boundaries of autonomous systems and technology.
+                    <a 
+    href="SPONSORSHIP.pdf"  // 👈 place your file inside public/sponsors/
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-emerald-600 font-semibold underline"
+  >
+    Click here to know more
+  </a>
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 max-w-5xl">
