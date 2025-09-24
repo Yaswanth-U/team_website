@@ -143,13 +143,15 @@ function ProjectCard({ src, title, description, onClick, pdf }) {
         {/* Show "More details" download link if pdf is provided */}
         {pdf && (
           <a
-            href={"public/A4 _merged.pdf"}
-            download
-            onClick={(e) => e.stopPropagation()} // prevent modal open
-            className="text-black-600 font-semibold underline"
-          >
-            More details...
-          </a>
+  href="/A4_merged.pdf"   // ✅ no "public/", no spaces
+  target="_blank"         // ✅ opens in new tab
+  rel="noopener noreferrer"
+  className="text-black font-semibold underline"
+  onClick={(e) => e.stopPropagation()} // keeps modal from closing
+>
+  More details...
+</a>
+
         )}
       </div>
     </div>
