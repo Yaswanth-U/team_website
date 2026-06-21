@@ -14,15 +14,15 @@ export default function Gallery() {
     { src: '/pictures/team.jpg', alt: 'Team' },
     { src: '/pictures/bot.jpg', alt: 'Bot' },
     { src: '/pictures/android_medium_page1.jpg', alt: 'Android Medium' },
-    { src: '/pictures/AE1.jpg', alt: 'Autoexpo2026' },
-    { src: '/pictures/AERO1.jpg', alt: 'Aerothon 2026' },
-    { src: '/pictures/IGVC1.jpg', alt: 'IGVC OLD' },
-    { src: '/pictures/IGVC2.jpg', alt: 'IGVC NEW' },
-    { src: '/pictures/ED1.jpg', alt: 'ENGINEERS DAY 2025' },
-    { src: '/pictures/ED2.jpg', alt: 'ENGINEERS DAY 2025' },
-    { src: '/pictures/ED3.jpg', alt: 'ENGINEERS DAY 2025' },
-    { src: '/pictures/IROC1.jpg', alt: 'ISRO DRONE CHALLENGE' },
-    { src: '/pictures/IMG_4302.jpg', alt: 'BOARD 2024-2026' }
+    { src: '/pictures/AE1.jpeg', alt: 'Autoexpo2026' },
+    { src: '/pictures/AERO1.jpeg', alt: 'Aerothon 2026' },
+    { src: '/pictures/IGVC1.jpeg', alt: 'IGVC OLD' },
+    { src: '/pictures/IGVC2.jpeg', alt: 'IGVC NEW' },
+    { src: '/pictures/ED1.jpeg', alt: 'ENGINEERS DAY 2025' },
+    { src: '/pictures/ED2.jpeg', alt: 'ENGINEERS DAY 2025' },
+    { src: '/pictures/ED3.jpeg', alt: 'ENGINEERS DAY 2025' },
+    { src: '/pictures/IROC1.jpeg', alt: 'ISRO DRONE CHALLENGE' },
+    { src: '/pictures/IMG_4302.jpeg', alt: 'BOARD 2024-2026' }
 
   ];
 
