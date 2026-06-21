@@ -22,7 +22,7 @@ export default function Gallery() {
     { src: '/pictures/ED2.jpeg', alt: 'ENGINEERS DAY 2025' },
     { src: '/pictures/ED3.jpeg', alt: 'ENGINEERS DAY 2025' },
     { src: '/pictures/IROC1.jpeg', alt: 'ISRO DRONE CHALLENGE' },
-    { src: '/pictures/IMG_4302.jpeg', alt: 'BOARD 2024-2026' }
+    { src: '/pictures/IMG_4302.JPG', alt: 'BOARD 2024-2026' }
 
   ];
 
