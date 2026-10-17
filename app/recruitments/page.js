@@ -111,7 +111,7 @@ export default function Recruitments() {
         {/* Google Form Embed */}
         <div className="max-w-2xl mx-auto bg-gray-100 p-8 rounded-lg shadow-md">
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSckXERmLnMD7tRm2htKRXMC_1NfRYOtVewQJU0YocdG2eZR3Q/viewform?embedded=true"
+            src="https://forms.gle/KXUeq9NBQ2BXXFMN7"
             width="100%"
             height="2300"
             frameBorder="0"

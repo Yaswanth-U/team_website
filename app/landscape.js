@@ -36,9 +36,10 @@ export default function HomeLandscape() {
           <div className="px-8 mt-6">
             <h2 className="font-bold text-2xl pb-4 text-emerald-600">Who are We?</h2>
             <p className="font-medium text-slate-600 text-justify leading-relaxed">
-              An autonomous ground vehicle developed by our OG group — the spark that
+              We are a team of passionate innovators from VIT, Vellore, committed to developing advanced autonomous robots. With expertise spanning engineering, computer science, and design, we thrive on interdisciplinary collaboration, believing that the fusion of diverse skills is the key to groundbreaking innovation by solutions.
+              {/*An autonomous ground vehicle developed by our OG group — the spark that
               started our journey. Originally a Maruti Ecco, it has now been converted
-              into a fully autonomous electric vehicle.
+              into a fully autonomous electric vehicle.*/}
             </p>
           </div>
         </div>
@@ -65,10 +66,10 @@ export default function HomeLandscape() {
             src="/pictures/android_medium_page1.jpg"
             height={720}
             width={1080}
-            alt="Team"
+            alt="Team 2025"
           />
           <span className="font-medium text-slate-600 text-justify">
-            We are a team of passionate innovators from VIT, Vellore, committed to developing advanced autonomous robots. With expertise spanning engineering, computer science, and design, we thrive on interdisciplinary collaboration, believing that the fusion of diverse skills is the key to groundbreaking innovation by solutions.
+            We are a team of passionate innovators from Vellore Iinstitute of Technology, Vellore committed to developing advanced autonomous robots. With expertise spanning engineering, computer science, and design, we thrive on interdisciplinary collaboration, believing that the fusion of diverse skills is the key to groundbreaking innovation by solutions.
           </span>
         </div>
       </section>
@@ -139,10 +140,16 @@ export default function HomeLandscape() {
             aria-label="LinkedIn"
             className="text-gray-700 hover:text-emerald-600"
           >
-            
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM3.56 20.452h3.558V9H3.56v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
           </a>
         </div>
+        <span className="font-medium text-slate-600 text-justify w-3/4 mt-6">
+          made with ❤️ by Team AutoZ at ALM 313, Vellore Institute of Technology-Vellore
+        </span>
       </section>
     </div>
   );
 }
+
