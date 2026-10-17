@@ -145,13 +145,12 @@ export default function HomeLandscape() {
             </svg>
           </a>
         </div>
-        <footer class="mt-8 border-t border-slate-200 px-6 py-6">
-          <div class="mx-auto w-3/4">
-            <p class="text-justify text-sm font-medium leading-6 text-slate-600">
-              Made with ❤️ by Team AutoZ at ALM 313,
-              Vellore Institute of Technology-Vellore
-            </p>
-          </div>
+        {/* Footer pinned to the bottom */}
+        <footer className="absolute bottom-0 left-0 w-full border-t border-slate-200 px-6 py-5">
+          <p className="mx-auto w-3/4 text-justify text-sm font-medium leading-6 text-slate-600">
+            Made with ❤️ by Team AutoZ at ALM 313,
+            Vellore Institute of Technology, Vellore
+          </p>
         </footer>
       </section>
     </div>
