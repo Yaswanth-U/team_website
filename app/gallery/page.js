@@ -60,6 +60,22 @@ export default function Gallery() {
           </div>
         </div>
       )}
+      <section>
+        {/* Footer stays at the bottom of this section */}
+        <footer className="mt-auto w-full border-t border-slate-200 px-6 py-5">
+          <div className="mx-auto flex w-3/4 items-center justify-center gap-4">
+            <p className="text-justify text-sm font-medium leading-6 text-slate-600">
+              Made with ❤️ by Team AutoZ at ALM 313,
+              Vellore Institute of Technology-Vellore
+            </p>
+            <img 
+              src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MnJyc3hkOWtxbDJneHk5bHF0N3VidXlvcTc4Yjlwand5anhjaWx6ZyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/jj8MZzaOJc8MTDRGcL/giphy.gif" 
+              alt="Dancing Sheep Sticker" 
+              className="h-10 w-auto object-contain dynamic-sheep"
+            />
+          </div>
+        </footer>
+      </section>
     </div>
   );
 }
