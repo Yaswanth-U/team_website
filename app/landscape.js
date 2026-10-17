@@ -148,8 +148,7 @@ export default function HomeLandscape() {
         {/* Footer pinned to the bottom */}
         <footer className="absolute bottom-0 left-0 w-full border-t border-slate-200 px-6 py-5">
           <p className="mx-auto w-3/4 text-justify text-sm font-medium leading-6 text-slate-600">
-            Made with ❤️ by Team AutoZ at ALM 313,
-            Vellore Institute of Technology, Vellore
+            Made with ❤️ by Team AutoZ at ALM 313, VIT-Vellore
           </p>
         </footer>
       </section>
